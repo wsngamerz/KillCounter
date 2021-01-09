@@ -1,0 +1,17 @@
+name: ${name}
+version: ${version}
+description: ${description}
+author: ${author}
+main: ${mainClass}
+api-version: 1.13
+
+commands:
+  kills:
+    aliases: [ kc ]
+    description: KillCounter commands
+    usage: |
+      /<command> - Opens a GUI that lists how many mobs you've killed
+      /<command> hostile - Opens a GUI that lists how many Hostile mobs you've killed
+      /<command> neutral - Opens a GUI that lists how many Neutral mobs you've killed
+      /<command> passive - Opens a GUI that lists how many Passive mobs you've killed
+      /<command> actionbar [on|off] - Turn the action bar message on or off
